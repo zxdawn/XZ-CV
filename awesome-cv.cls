@@ -652,7 +652,7 @@
     \ifempty{#2#3}
       {\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
       {\vspace{1.0mm}\entrytitlestyle{#2} & \vspace{1.0mm}\entrylocationstyle{#3} \\
-      \hspace{4.0mm}\entrypositionstyle{#1} & \entrydatestyle{#4} \\}
+      \entrypositionstyle{#1} & \entrydatestyle{#4} \\}
       \multicolumn{2}{L{\textwidth}}{\descriptionstyle{#5}}
   \end{tabular*}%
 }
