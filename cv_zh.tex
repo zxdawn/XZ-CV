@@ -1,0 +1,115 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv_zh}
+
+% Configure page margins with geometry
+\geometry{left=2.0cm, top=1.3cm, right=2.0cm, bottom=1.3cm, footskip=.5cm}
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-orange}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
+
+% to make it clear
+% \definecolor{graytext}{HTML}{333333}
+% \definecolor{lighttext}{HTML}{333333}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo{./imgs/profile_blue.jpg}
+\name{张}{昕}
+% \position{Software Architect{\enskip\cdotp\enskip}Security Expert}
+\address{大气物理学院，南京信息工程大学 \\
+江苏省南京市，210044}
+
+\mobile{(+86) 15895938361}
+\dateofbirth{1995-12-15}
+\email{xinzhang1215@gmail.com}
+\homepage{dreambooker.site}
+\github{zxdawn}
+% \linkedin{posquit0}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{medium-id}
+% \kaggle{kaggle-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra information}
+
+% \quote{``Be the change that you want to see in the world."}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal information
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% \makecvfooter
+  % {\today}
+  % {Xin Zhang~~~·~~~Curriculum Vitae}
+  % {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%-------------------------------------------------------------------------------
+\vspace{2mm}
+\input{cv/education_zh.tex}
+\input{cv/experience_zh.tex}
+\input{cv/honors_zh.tex}
+\input{cv/publications_zh.tex}
+\input{cv/presentations_zh.tex}
+% \input{cv/activities.tex}
+\input{cv/extracurricular_zh.tex}
+\input{cv/skills_zh.tex}
+
+
+%-------------------------------------------------------------------------------
+\end{document}
