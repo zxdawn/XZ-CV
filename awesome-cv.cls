@@ -690,7 +690,7 @@
   \begin{center}
     \setlength\tabcolsep{0pt}
     \setlength{\extrarowheight}{0pt}
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1.7cm} K{\textwidth - 6.0cm} R{3.5cm}}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{1.7cm} K{\textwidth - 6.0cm} R{3.5cm}}
 }{%
     \end{tabular*}
   \end{center}
@@ -710,7 +710,7 @@
     \setlength{\extrarowheight}{0pt}
     % increase the linespace in table cell (for publications)
     % \linespread{1.3}\selectfont
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} C{1.7cm} K{\textwidth - 2.5cm} R{2.5cm}}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{1.7cm} K{\textwidth - 2.5cm} R{2.5cm}}
 }{%
     \end{tabular*}
   \end{center}
