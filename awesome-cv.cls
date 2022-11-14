@@ -81,9 +81,7 @@
 % Needed to deal a paragraphs
 \RequirePackage{parskip}
 % Needed to deal hyperlink
-\RequirePackage[hidelinks,unicode,pdfpagelabels=false]{hyperref}
-% set color to link (for publications)
-% \RequirePackage[hidelinks,unicode,pdfpagelabels=false,colorlinks=true,urlcolor=awesome-skyblue]{hyperref}
+\RequirePackage[hidelinks,unicode,pdfpagelabels=false,colorlinks=true,urlcolor=awesome-skyblue]{hyperref}
 \hypersetup{%
   pdftitle={},
   pdfauthor={},
@@ -471,14 +469,14 @@
       \ifthenelse{\isundefined{\@mobile}}%
         {}%
         {%
-          \href{tel:\@mobile}{\faMobile\acvHeaderIconSep\@mobile}%
+          \hypersetup{hidelinks}\href{tel:\@mobile}{\faMobile\acvHeaderIconSep\@mobile}%
           \setbool{isstart}{false}%
         }%
       \ifthenelse{\isundefined{\@email}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{mailto:\@email}{\faEnvelope\acvHeaderIconSep\@email}%
+          \hypersetup{hidelinks}\href{mailto:\@email}{\faEnvelope\acvHeaderIconSep\@email}%
         }%
       \ifthenelse{\isundefined{\@dateofbirth}}%
         {}%
@@ -491,13 +489,13 @@
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{http://\@homepage}{\faHome\acvHeaderIconSep\@homepage}%
+          \hypersetup{hidelinks}\href{http://\@homepage}{\faHome\acvHeaderIconSep\@homepage}%
         }%
       \ifthenelse{\isundefined{\@github}}%
         {}%
         {%
           \ifbool{isstart}{\setbool{isstart}{false}}{\acvHeaderSocialSep}%
-          \href{https://github.com/\@github}{\faGithubSquare\acvHeaderIconSep\@github}%
+          \hypersetup{hidelinks}\href{https://github.com/\@github}{\faGithubSquare\acvHeaderIconSep\@github}%
         }%
       \ifthenelse{\isundefined{\@gitlab}}%
         {}%
@@ -701,6 +699,19 @@
   \honordatestyle{#4} & \honorpositionstyle{#1}, \honortitlestyle{#2} & \honorlocationstyle{#3} \\
 }
 
+% Define an environment for cvpresentations
+\newenvironment{cvpresentations}{%
+  \vspace{\acvSectionContentTopSkip}
+  \vspace{-2mm}
+  \begin{center}
+    \setlength\tabcolsep{0pt}
+    \setlength{\extrarowheight}{0pt}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{1.7cm} K{\textwidth - 2.5cm} R{2.5cm}}
+}{%
+    \end{tabular*}
+  \end{center}
+}
+
 % Define an environment for cvpublications
 \newenvironment{cvpublications}{%
   \vspace{\acvSectionContentTopSkip}
@@ -709,7 +720,7 @@
     \setlength\tabcolsep{0pt}
     \setlength{\extrarowheight}{0pt}
     % increase the linespace in table cell (for publications)
-    % \linespread{1.3}\selectfont
+    \linespread{1.3}\selectfont
     \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} L{1.7cm} K{\textwidth - 2.5cm} R{2.5cm}}
 }{%
     \end{tabular*}
