@@ -13,6 +13,6 @@ This is the repo of Xin's CV which is based on [Awesome-CV](https://github.com/p
 
 ### CV (Chinese)
 
-| Page. 1                                                                                                                           | Page. 2                                                                                                                           | Page. 3                                                                                                                           |
-|:---------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|
-| [![cv](https://raw.githubusercontent.com/zxdawn/XZ-CV/main/imgs/cv_zh_Page_1.png)](https://github.com/zxdawn/XZ-CV/blob/main/cv_zh.pdf) | [![cv](https://raw.githubusercontent.com/zxdawn/XZ-CV/main/imgs/cv_zh_Page_2.png)](https://github.com/zxdawn/XZ-CV/blob/main/cv_zh.pdf) | [![cv](https://raw.githubusercontent.com/zxdawn/XZ-CV/main/imgs/cv_zh_Page_3.png)](https://github.com/zxdawn/XZ-CV/blob/main/cv_zh.pdf) |
+| Page. 1                                                                                                                           |
+|:---------------------------------------------------------------------------------------------------------------------------------:|
+| [![cv](https://raw.githubusercontent.com/zxdawn/XZ-CV/main/imgs/cv_zh_Page_1.png)](https://github.com/zxdawn/XZ-CV/blob/main/cv_zh.pdf) |
