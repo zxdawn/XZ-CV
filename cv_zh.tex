@@ -21,7 +21,8 @@
 \documentclass[11pt, a4paper]{awesome-cv_zh}
 
 % Configure page margins with geometry
-\geometry{left=2.0cm, top=1.3cm, right=2.0cm, bottom=1.3cm, footskip=.5cm}
+% \geometry{left=2.0cm, top=1.3cm, right=2.0cm, bottom=1.3cm, footskip=.5cm}
+\geometry{left=2.0cm, top=1.8cm, right=2.0cm, bottom=1.8cm, footskip=.5cm}
 
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
@@ -91,9 +92,9 @@
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 % \makecvfooter
-  % {\today}
-  % {Xin Zhang~~~·~~~Curriculum Vitae}
-  % {\thepage}
+%   {\today}
+%   {Xin Zhang~~~·~~~Curriculum Vitae}
+%   {\thepage}
 
 
 %-------------------------------------------------------------------------------
@@ -101,14 +102,19 @@
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
 \vspace{2mm}
+
 \input{cv/education_zh.tex}
 \input{cv/experience_zh.tex}
+
+\clearpage % comment this to make the page continious
 \input{cv/honors_zh.tex}
-\input{cv/publications_zh.tex}
 \input{cv/presentations_zh.tex}
 % \input{cv/activities.tex}
 \input{cv/extracurricular_zh.tex}
 \input{cv/skills_zh.tex}
+
+\clearpage % comment this to make the page continious
+\input{cv/publications_zh.tex}
 
 
 %-------------------------------------------------------------------------------
