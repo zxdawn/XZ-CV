@@ -6,9 +6,9 @@ This is the repo of Xin's CV which is based on [Awesome-CV](https://github.com/p
 
 ### CV
 
-| Page. 1 | Page. 2 |
-|:---:|:---:|
-| [![cv](https://raw.githubusercontent.com/zxdawn/XZ-CV/main/imgs/cv_Page_1.png)](https://github.com/zxdawn/XZ-CV/blob/main/cv.pdf) | [![cv](https://raw.githubusercontent.com/zxdawn/XZ-CV/main/imgs/cv_Page_2.png)](https://github.com/zxdawn/XZ-CV/blob/main/cv.pdf) |
+| Page. 1                                                                                                                           | Page. 2                                                                                                                           | Page. 3                                                                                                                           |
+|:---------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------:|
+| [![cv](https://raw.githubusercontent.com/zxdawn/XZ-CV/main/imgs/cv_Page_1.png)](https://github.com/zxdawn/XZ-CV/blob/main/cv.pdf) | [![cv](https://raw.githubusercontent.com/zxdawn/XZ-CV/main/imgs/cv_Page_2.png)](https://github.com/zxdawn/XZ-CV/blob/main/cv.pdf) | [![cv](https://raw.githubusercontent.com/zxdawn/XZ-CV/main/imgs/cv_Page_3.png)](https://github.com/zxdawn/XZ-CV/blob/main/cv.pdf) |
 
 
 ### Cover Letter
